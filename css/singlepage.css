@@ -1,0 +1,114 @@
+body{
+	
+	
+}
+
+.main{
+	
+	width:1585px;
+	Height:1000px;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:10px;
+	}
+h1{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: sans-serif;
+	letter-spacing: 20px;
+	margin-top:50px;
+	margin-bottom:100px;
+	
+}
+li{
+	list-style: none;
+	text-decoration: none;
+	display: inline;
+	margin:120px;
+	font-family:sans-serif;
+}
+.row1{
+	border:1px solid black;
+	width:500px;
+	Height:500px;
+	float:left;
+	margin:100px;
+
+}
+
+.row2{
+	border:1px solid black;
+	width:50px;
+	Height:50px;
+	float:left;
+	margin:100px;	
+}
+
+.row3{
+	border:1px solid black;
+	width:50px;
+	Height:50px;
+	float:left;
+	margin:100px;
+}
+
+.row4{
+	border:1px solid black;
+	width:50px;
+	Height:50px;
+	float:left;
+	margin:100px;
+}
+.row5{
+	border:1px solid black;
+	width:50px;
+	Height:50px;
+	float:left;
+	margin:100px;
+}
+
+.row6{
+	border:1px solid black;
+	width:50px;
+	Height:50px;
+	float:left;
+	margin:100px;	
+}
+
+.row1:hover{
+	background-color:black;
+	-webkit-animation-name: motion1; /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 4s; /* Chrome, Safari, Opera */
+    animation-name: motion1;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    transition:1s;
+}
+.row2:hover{
+	background-color:black;
+
+}
+.row3:hover{
+	background-color:black;
+}
+.row4:hover{
+	background-color:black;
+}
+.row5:hover{
+	background-color:black;
+}
+.row6:hover{
+	background-color:black;
+}
+
+@-webkit-keyframes motion1 {
+    0%   {background-image:url("cool.jpg"); left:100px; top:0px;}
+    25%  {background-image:url("cool.jpg"); left:0px; top:-100px;}
+    50%  {background-image:url("cool.jpg"); left:-100px; top:0px;}
+    75%  {background-image:url("cool.jpg"); left:0px; top:100px;}
+    100% {background-image:url("cool.jpg"); left:0px; top:0px;}
+}
+
+
+
